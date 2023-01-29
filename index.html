@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Productos</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <header>
+        <h1>Api productos</h1>
+        <nav id="container-menu">
+            <ol id="menu">
+                <li><a href="#">Documentacion</a></li>
+                <!-- <li><a href="#">Documentacion</a></li> -->
+            </ol>
+        </nav>
+   </header>
+   <main>
+        <h2 class="sub-titulo">
+            ¿Como usarlo?
+        </h2>
+        <div id="fetch-container">
+            <code>
+               <span class="fuction">fetch</span>(<span class="url">'http://localhost:5000/pantalones'</span> ) <br>
+                .<span class="fuction">then</span>(response <span class="equal">=></span> response.<span class="fuction">json()</span>) <br>
+                .<span class="fuction">then</span>(data <span class="equal">=></span> console.<span class="fuction">log</span>(data))
+            </code>
+           
+        </div>
+        <h4>Copie los datos que estan arriba y pegelos en su (archivo.js)</h4>
+
+        <h2 class="sub-titulo rutas" >Rutas</h2>
+
+        <div id="rutas-container">
+            <ol>
+            <a href="http://localhost:5000/productos" class="rutas-productos"><span class="get">GET</span>/productos</a>
+            <a href="http://localhost:5000/camisas" class="rutas-productos"><span class="get">GET</span>/camisas</a>
+            <a href="http://localhost:5000/pantalones" class="rutas-productos"><span class="get">GET</span>/pantalones</a>
+            <a href="http://localhost:5000/reloj" class="rutas-productos"><span class="get">GET</span>/reloj</a>
+            <a href="http://localhost:5000/electrodomesticos" class="rutas-productos"><span class="get">GET</span>/electrodomesticos</a>
+            <a href="http://localhost:5000/celulares" class="rutas-productos"><span class="get">GET</span>/celulares</a>
+            </ol>
+        </div>
+   </main>
+   <footer>
+    <h6>codificado y  hecho con ❤ por el equipo de desarrollo © 2023</h6> <br>
+   </footer>
+</body>
+</html>
