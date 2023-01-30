@@ -14,5 +14,6 @@ app.get('/reloj', (req, res) => res.send(JSON.stringify(productos.Reloj)))
 app.get('/electrodomesticos', (req, res) => res.send(JSON.stringify(productos.Electrodomesticos)))
 app.get('/celulares', (req, res) => res.send(JSON.stringify(productos.Celulares)))
 
-app.listen(5000, () => console.log('El servidor se esta ejecutando👍'))
+const port = process.env.PORT || 5000
+app.listen(port, () => console.log('El servidor se esta ejecutando👍'))
 
