@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentacion</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Documentacion</h1>
+        <nav id="container-menu">
+            <ol id="menu">
+                <li><a href="http://localhost:5000">Volver</a></li>
+            </ol>
+        </nav>
+   </header>
+   <main>
+    <h2 class="sub-titulo">
+       Productos fake
+    </h2>
+    <h4>Es una api que brinda productos falsos. para hacer pruebas con peticiones (Fetch API) <br>
+        contiene productos de uso personal y electrodomesticos que usamos en nuestro dia a dia <br>
+        entre muchos mas...
+    </h4>
+    <br>
+    <br>
+    <h2 class="sub-titulo">
+        ¿Como usarla?
+     </h2>
+     <div id="fetch-container">
+        <code>
+           <span class="fuction">fetch</span>(<span class="url">'http://localhost:5000/productos'</span>) <br>
+            .<span class="fuction">then</span>(response <span class="equal">=></span> response.<span class="fuction">json()</span>) <br>
+            .<span class="fuction">then</span>(data <span class="equal">=></span> console.<span class="fuction">log</span>(data))
+        </code>
+       
+    </div>
+    <h4>Copie los datos que estan arriba y pegelos en su (archivo.js)</h4>
+</main>
+<footer>
+    <h6>codificado y  hecho con ❤ por el equipo de desarrollo © 2023</h6> <br>
+   </footer>
+</body>
+</html>
