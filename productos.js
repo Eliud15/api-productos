@@ -243,7 +243,6 @@ const productos = {
             description: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reprehenderit. Doloribus pariatur ',
             precio: 39.4
         },
-        ,
         {
             name: 'Blusa con estampado Vichy',
             description: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reprehenderit. Doloribus pariatur ',
